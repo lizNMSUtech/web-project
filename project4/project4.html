@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trip Planner | My Travel Site</title>
+    <link rel="stylesheet" href="css/project4.css">
+</head>
+<body>
+    <header>
+        <h1>Plan Your Next Adventure</h1>
+        <nav aria-label="Main navigation">
+            <ul>
+                <li><a href="../index.html">Home</a></li>
+                <li><a href="../html/project2.html">Travel Page</a></li>
+                <li><a href="../html/project3.html">Chihuahua Guide</a></li>
+                <li><a href="project4.html" aria-current="page">Trip Planner</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="intro">
+            <h2>Where Will You Go Next?</h2>
+            <p>Every great trip starts with a little planning. Pick a destination, jot down what you want to see, and the rest tends to fall into place. This planner is a simple way to kick off the conversation with yourself before you start booking flights.</p>
+            <img src="../images/tropical.jpg" alt="An aerial view of a Maldives beach with turquoise water, white sand, palm trees, kayaks on the shore, and two people walking along the waterline">
+        </section>
+
+        <section id="tips">
+            <h2>Five Tips Before You Go</h2>
+            <ol>
+                <li>Check that your passport will be valid for at least six months past your return date</li>
+                <li>Book flights on a Tuesday or Wednesday for better prices</li>
+                <li>Save copies of your passport and ID to a secure cloud folder</li>
+                <li>Tell your bank and credit card company your travel dates so they do not freeze your card</li>
+                <li>Learn a few phrases in the local language before you go</li>
+            </ol>
+        </section>
+
+        <section id="planner">
+            <h2>Build Your Trip</h2>
+            <p>Fill out the short form below and get a personalized starter message for your next adventure.</p>
+
+            <div class="planner-form">
+                <label for="traveler-name">Your name</label>
+                <input type="text" id="traveler-name" name="traveler-name" placeholder="e.g. Bob">
+
+                <label for="destination">Where do you want to go?</label>
+                <input type="text" id="destination" name="destination" placeholder="e.g. Santa Fe">
+
+                <button type="button" id="plan-button">Plan My Trip</button>
+            </div>
+
+            <div id="trip-message" aria-live="polite"></div>
+        </section>
+
+        <section id="resources">
+            <h2>Travel Resources</h2>
+            <p>A few websites worth bookmarking when you start planning:</p>
+            <ul>
+                <li><a href="https://www.lonelyplanet.com">Lonely Planet travel guides</a></li>
+                <li><a href="https://travel.state.gov">U.S. State Department travel advisories</a></li>
+                <li><a href="https://www.google.com/flights">Google Flights for fare tracking</a></li>
+            </ul>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2026 Lisvaldo Liz. Created for ICT 280 at NMSU.</p>
+        <p>Tropical photo by <a href="https://www.pexels.com/@asadphoto/">Asad Photo Maldives</a> on <a href="https://www.pexels.com">Pexels</a>.</p>
+    </footer>
+
+    <script src="js/script.js"></script>
+</body>
+</html>
