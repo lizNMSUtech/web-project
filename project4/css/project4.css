@@ -47,11 +47,11 @@ nav a {
 }
 
 nav a:hover {
-    background-color: #c97b3c;
+    background-color: #8b4f1f;
 }
 
 nav a[aria-current="page"] {
-    background-color: #c97b3c;
+    background-color: #8b4f1f;
 }
 
 /* Main content area */
@@ -142,7 +142,7 @@ section a:hover {
 }
 
 #plan-button {
-    background-color: #c97b3c;
+    background-color: #8b4f1f;
     color: #ffffff;
     border: none;
     padding: 12px 20px;
@@ -154,7 +154,7 @@ section a:hover {
 }
 
 #plan-button:hover {
-    background-color: #a85f28;
+    background-color: #6b3c17;
 }
 
 /* Dynamic trip message area */
@@ -182,6 +182,15 @@ footer {
 
 footer p {
     margin: 5px 0;
+    color: #ffffff;
+}
+
+footer a {
+    color: #ffd9a8;
+    text-decoration: underline;
+}
+
+footer a:hover {
     color: #ffffff;
 }
 
